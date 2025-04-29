@@ -29,4 +29,9 @@ func main() {
 	fmt.Println("Husband info", husbandName, husbandAge)
 	fmt.Println("My info", myName, myAge)
 	fmt.Println("Simple format declaration", convertedSimple)
+
+    //! Arrays
+	students := [3]string {"a", "b", "c"}
+	var count int = len(students)
+	fmt.Println(count, students)
 }
